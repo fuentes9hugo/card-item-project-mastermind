@@ -1,1 +1,16 @@
-/*CSS general de elementos*/
+body {
+    justify-items: center;
+    align-content: center;
+    height: 100dvh;
+}
+
+.card-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    width: 500px;
+    height: 250px;
+    
+    background-color: #353535;
+    border-radius: 10px;
+}
