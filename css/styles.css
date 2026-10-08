@@ -112,6 +112,32 @@ button {
     color: white;
 }
 
+.btn-primary-canceled {
+    width: fit-content;
+    padding: 20px 40px;
+    background-color: white;
+    border: 2px solid #555;
+    border-radius: 8px;
+
+    color: #555;
+    font-size: 32px;
+
+    cursor: pointer;
+}
+
+.btn-secondary-canceled {
+    width: fit-content;
+    padding: 12px 24px;
+    background-color: white;
+    border: 2px solid #555;
+    border-radius: 8px;
+
+    color: #555;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
 .stock {
     color: #E96862;
     font-size: 24px;
@@ -136,12 +162,13 @@ button {
     margin-right: 20px;
 }
 
-#cart {
+.label {
     background-color: #E12F42;
     padding: 20px;
     border-radius: 100%;
     color: white;
     font-size: 20px;
+    visibility: hidden;
 }
 
 /* Responsive mobile */
